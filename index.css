@@ -217,6 +217,22 @@ footer{
     margin-left: 20px;
 }
 
+@media only screen and (min-width: 560px){
+    .box1{
+        height: 120vh;
+    }
+
+    .box2{
+        height: 60vh;
+    }
+
+    .box3{
+        height: 50vh;
+    }
+ 
+
+}
+
 
 @media only screen and (min-width: 768px) {
   
@@ -249,7 +265,7 @@ footer{
     }
 
     .box2{
-        height: 40vh;
+        height: 60vh;
     }
  
     .p-box2{
@@ -265,8 +281,9 @@ footer{
     }
 
     .box3{
-        height: 30vh;
+        height: 50vh;
     }
+
     .titulo-box3{
         font-size: 1.5em;
     }
@@ -346,6 +363,11 @@ button{
 
 
 /*box 3*/
+
+.box3{
+    height: 30vh;
+}
+
 .titulo-box3{
     font-size: 1.5em;
 }
